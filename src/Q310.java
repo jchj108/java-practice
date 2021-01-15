@@ -1,17 +1,14 @@
-//import java.util.Scanner;
-public class Q37 {
+public class Q310 {
 
 	public static void main(String[] args) {
 
-	//화씨를 섭씨로 변환하고 소수점 반올림하기
-		
-	int fahrenheit = 100;
-	float celcius = (int) ((5/9f * (fahrenheit -32)) * 100 + 0.5) / 100f;
+		char ch = 'A';
 			
+		char lowerCase = ('A' <= ch && ch <= 'Z') ? (char)(ch+32) : ch;
+				
+		System.out.println("ch:"+ch);
+		System.out.println("ch to lowerCase:"+lowerCase);
 	
-	System.out.println("Fahrenheit:"+fahrenheit);
-	System.out.println(String.format("Celcius:" + "%.2f", + celcius));
-
 	}
 
 }
