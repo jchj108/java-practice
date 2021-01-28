@@ -12,7 +12,7 @@ public class Arraychapter {
 		};
 
 		int total = 0;
-		float average = 0;
+		float average = 0; //ЦђБе
 
 		for (int i=0; i<arr.length; i++) {
 			for (int j = 0; j<arr[i].length; j++) {
